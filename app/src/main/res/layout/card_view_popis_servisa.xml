@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        >
+
+        <TextView
+            android:id="@+id/cardViewRadiona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:text="Radiona:"/>
+        <TextView
+            android:id="@+id/cardViewAdresa"
+            android:layout_below="@+id/cardViewRadiona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:text="Adresa:"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

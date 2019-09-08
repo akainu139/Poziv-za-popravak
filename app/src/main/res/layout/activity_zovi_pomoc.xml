@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZoviPomocActivity">
+
+    <TextView
+        android:id="@+id/kartaServisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="Karta najbližih servisa"
+        android:background="#E6E6FA"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        app:layout_constraintTop_toBottomOf="@+id/kartaServisa"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

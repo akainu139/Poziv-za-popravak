@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="30dp"
+    >
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Podaci o servisu"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radiona: "/>
+        <TextView
+            android:id="@+id/dijalogRadiona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="radiona"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="10dp">>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Adresa: "/>
+        <TextView
+            android:id="@+id/dijalogAdresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="adresa"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="10dp">>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Vlasnik: "/>
+        <TextView
+            android:id="@+id/dijalogVlasnik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="vlasnik"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Web stranica: "/>
+        <TextView
+            android:id="@+id/dijalogWebStranica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#639fff"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="web stranica"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="10dp">>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E-mail: "/>
+        <TextView
+            android:id="@+id/dijalogEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#639fff"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="bruno.bek@student.mev.hr"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="10dp">>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Telefon: "/>
+        <TextView
+            android:id="@+id/dijalogTelefon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#639fff"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="0911111111"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="10dp">>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Udaljenost: "/>
+        <TextView
+            android:id="@+id/dijalogUdaljenost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="0 km"/>
+    </TableRow>
+
+
+</TableLayout>
